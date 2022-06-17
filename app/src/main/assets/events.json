@@ -1,0 +1,1267 @@
+[
+  {
+    "EventID": 0,
+    "Title": "Severina",
+    "StartDate": "2018-06-14T15:00:00Z",
+    "EndDate": "2018-06-14T16:00:00Z",
+    "Location": {
+      "LocationId": 0,
+      "AddressId": 0,
+      "Venue": "Gradski Vrt",
+      "Address": {
+        "AddressId": 0,
+        "City": "Osijek",
+        "ZipCode": "31000",
+        "Street": "Ulica Marka",
+        "HouseNumber": "5"
+      }
+    },
+    "LocationId": 0,
+    "User": {
+      "UserId": 0,
+      "Username": "Seve",
+      "Email": "seve@rina.com",
+      "Address": {
+        "AddressId": 0,
+        "City": "Osijek",
+        "ZipCode": "31000",
+        "Street": "Ulica Marka",
+        "HouseNumber": "5"
+      },
+      "Picture":"https://www.bhdijaspora.net/wp-content/uploads/2019/03/severina33-830x553.jpg",
+      "ContactName": "Vlatko",
+      "PhoneNumber": "555-555",
+      "UserType": 1
+    },
+    "EventType": 3,
+    "TicketsAvailable": [
+      {
+        "TicketId": 0,
+        "Price": 120,
+        "QRCode": "5",
+        "TicketOwner": {
+          "ContactId": 0,
+          "FirstName": "Marko",
+          "LastName": "Perkovic",
+          "Email": "marko@perkovic.com",
+          "Age": 33,
+          "Address": {
+            "AddressId": 1,
+            "City": "Zagreb",
+            "ZipCode": "10000",
+            "Street": "Ilica",
+            "HouseNumber": "5"
+          },
+          "AddressId": 0
+        },
+        "PrintableToPdf": false,
+        "EventId": 0,
+        "ContactId": 0
+      },
+      {
+        "TicketId": 0,
+        "Price": 120,
+        "QRCode": "5",
+        "TicketOwner": {
+          "ContactId": 1,
+          "FirstName": "Zoran",
+          "LastName": "Perkovic",
+          "Email": "marko@perkovic.com",
+          "Age": 33,
+          "Address": {
+            "AddressId": 1,
+            "City": "Zagreb",
+            "ZipCode": "10000",
+            "Street": "Ilica",
+            "HouseNumber": "5"
+          },
+          "AddressId": 0
+        },
+        "PrintableToPdf": false,
+        "EventId": 0,
+        "ContactId": 0
+      },
+      {
+        "TicketId": 0,
+        "Price": 120,
+        "QRCode": "5",
+        "TicketOwner": {
+          "ContactId": 2,
+          "FirstName": "Tomislav",
+          "LastName": "Perkovic",
+          "Email": "marko@perkovic.com",
+          "Age": 33,
+          "Address": {
+            "AddressId": 1,
+            "City": "Zagreb",
+            "ZipCode": "10000",
+            "Street": "Ilica",
+            "HouseNumber": "5"
+          },
+          "AddressId": 0
+        },
+        "PrintableToPdf": false,
+        "EventId": 0,
+        "ContactId": 0
+      },
+      {
+        "TicketId": 0,
+        "Price": 120,
+        "QRCode": "5",
+        "TicketOwner": {
+          "ContactId": 3,
+          "FirstName": "Luka",
+          "LastName": "Perkovic",
+          "Email": "marko@perkovic.com",
+          "Age": 33,
+          "Address": {
+            "AddressId": 1,
+            "City": "Zagreb",
+            "ZipCode": "10000",
+            "Street": "Ilica",
+            "HouseNumber": "5"
+          },
+          "AddressId": 0
+        },
+        "PrintableToPdf": false,
+        "EventId": 0,
+        "ContactId": 0
+      },
+      {
+        "TicketId": 0,
+        "Price": 120,
+        "QRCode": "5",
+        "TicketOwner": {
+          "ContactId": 4,
+          "FirstName": "Darko",
+          "LastName": "Perkovic",
+          "Email": "marko@perkovic.com",
+          "Age": 33,
+          "Address": {
+            "AddressId": 1,
+            "City": "Zagreb",
+            "ZipCode": "10000",
+            "Street": "Ilica",
+            "HouseNumber": "5"
+          },
+          "AddressId": 0
+        },
+        "PrintableToPdf": false,
+        "EventId": 0,
+        "ContactId": 0
+      }
+    ],
+    "Comments": [
+      {
+        "CommentId": 1,
+        "Text": "Jako dobar party",
+        "Author": "Montezuma",
+        "Rating": 5,
+        "DatePosted": "2018-06-14T15:00:00Z",
+        "EventId": 0
+      },
+      {
+        "CommentId": 2,
+        "Text": "loše",
+        "Author": "Montezuma",
+        "Rating": 1,
+        "DatePosted": "2018-06-14T15:00:00Z",
+        "EventId": 0
+      },
+      {
+        "CommentId": 3,
+        "Text": "Jako dobar party",
+        "Author": "Montezuma",
+        "Rating": 5,
+        "DatePosted": "2018-06-14T15:00:00Z",
+        "EventId": 0
+      },
+      {
+        "CommentId": 4,
+        "Text": "Stvarno dobar party",
+        "Author": "Montezuma",
+        "Rating": 5,
+        "DatePosted": "2018-06-14T15:00:00Z",
+        "EventId": 0
+      }
+    ],
+    "Picture": "https://www.bhdijaspora.net/wp-content/uploads/2019/03/severina33-830x553.jpg"
+  },
+  {
+    "EventID": 1,
+    "Title": "Ljeto u MSU 2022",
+    "StartDate": "2022-06-18T15:00:00Z",
+    "EndDate": "2022-06-18T19:00:00Z",
+    "Location": {
+      "LocationId": 1,
+      "AddressId": 1,
+      "Venue": "Muzej Suvremene Umjetnosti",
+      "Address": {
+        "AddressId": 1,
+        "City": "Zagreb",
+        "ZipCode": "10000",
+        "Street": "Jadranska",
+        "HouseNumber": "5"
+      }
+    },
+    "LocationId": 1,
+    "User": {
+      "UserId": 1,
+      "Username": "Goran3",
+      "Email": "goran@rina.com",
+      "Address": {
+        "AddressId": 222,
+        "City": "Osijek",
+        "ZipCode": "31000",
+        "Street": "Ulica Marka",
+        "HouseNumber": "5"
+      },
+      "Picture":"https://scontent.fzag4-1.fna.fbcdn.net/v/t39.30808-6/280615276_433968068538976_5888327116762361445_n.jpg?_nc_cat=103&ccb=1-7&_nc_sid=e3f864&_nc_ohc=HEQoGU4oKTYAX9IMBbD&_nc_ht=scontent.fzag4-1.fna&oh=00_AT96ufCzSYo0DZyAPoAxVkGozq7Ox0AtLkkGziuDT8ix0g&oe=62AD5DE9",
+      "ContactName": "Vlatko",
+      "PhoneNumber": "555-555",
+      "UserType": 1
+    },
+    "EventType": 3,
+    "TicketsAvailable": [
+      {
+        "TicketId": 0,
+        "Price": 55,
+        "QRCode": "555",
+        "TicketOwner": {
+          "ContactId": 5,
+          "FirstName": "Marko",
+          "LastName": "Perkovic",
+          "Email": "marko@perkovic.com",
+          "Age": 33,
+          "Address": {
+            "AddressId": 1,
+            "City": "Zagreb",
+            "ZipCode": "10000",
+            "Street": "Grada Vukovara",
+            "HouseNumber": "5"
+          },
+          "AddressId": 1
+        },
+        "PrintableToPdf": false,
+        "EventId": 1,
+        "ContactId": 1
+      },
+      {
+        "TicketId": 0,
+        "Price": 55,
+        "QRCode": "555",
+        "TicketOwner": {
+          "ContactId": 5,
+          "FirstName": "Tamagoči",
+          "LastName": "Perkovic",
+          "Email": "marko@perkovic.com",
+          "Age": 22,
+          "Address": {
+            "AddressId": 1,
+            "City": "Zagreb",
+            "ZipCode": "10000",
+            "Street": "Grada Vukovara",
+            "HouseNumber": "5"
+          },
+          "AddressId": 0
+        },
+        "PrintableToPdf": false,
+        "EventId": 0,
+        "ContactId": 0
+      },
+      {
+        "TicketId": 0,
+        "Price": 55,
+        "QRCode": "5",
+        "TicketOwner": {
+          "ContactId": 5,
+          "FirstName": "Mislav",
+          "LastName": "Perkovic",
+          "Email": "marko@perkovic.com",
+          "Age": 66,
+          "Address": {
+            "AddressId": 1,
+            "City": "Zagreb",
+            "ZipCode": "10000",
+            "Street": "Grada Vukovara",
+            "HouseNumber": "5"
+          },
+          "AddressId": 0
+        },
+        "PrintableToPdf": false,
+        "EventId": 0,
+        "ContactId": 0
+      },
+      {
+        "TicketId": 0,
+        "Price": 55,
+        "QRCode": "5",
+        "TicketOwner": {
+          "ContactId": 5,
+          "FirstName": "Lijerko",
+          "LastName": "Perkovic",
+          "Email": "marko@perkovic.com",
+          "Age": 44,
+          "Address": {
+            "AddressId": 1,
+            "City": "Zagreb",
+            "ZipCode": "10000",
+            "Street": "Grada Vukovara",
+            "HouseNumber": "5"
+          },
+          "AddressId": 0
+        },
+        "PrintableToPdf": false,
+        "EventId": 0,
+        "ContactId": 0
+      },
+      {
+        "TicketId": 0,
+        "Price": 55,
+        "QRCode": "5",
+        "TicketOwner": {
+          "ContactId": 5,
+          "FirstName": "Marko",
+          "LastName": "Perkovic",
+          "Email": "marko@perkovic.com",
+          "Age": 33,
+          "Address": {
+            "AddressId": 1,
+            "City": "Zagreb",
+            "ZipCode": "10000",
+            "Street": "Ilica",
+            "HouseNumber": "5"
+          },
+          "AddressId": 0
+        },
+        "PrintableToPdf": false,
+        "EventId": 0,
+        "ContactId": 0
+      }
+    ],
+    "Comments": [
+      {
+        "CommentId": 0,
+        "Text": "Jako dobar party",
+        "Author": "Kristijan",
+        "Rating": 5,
+        "DatePosted": "2018-06-14T15:00:00Z",
+        "EventId": 0
+      },
+      {
+        "CommentId": 0,
+        "Text": "Svaka čast",
+        "Author": "Kele",
+        "Rating": 5,
+        "DatePosted": "2018-06-14T15:00:00Z",
+        "EventId": 0
+      },
+      {
+        "CommentId": 0,
+        "Text": "Nikad više",
+        "Author": "Toster",
+        "Rating": 2,
+        "DatePosted": "2018-06-14T15:00:00Z",
+        "EventId": 0
+      },
+      {
+        "CommentId": 0,
+        "Text": "Jako dobar party",
+        "Author": "Montezuma",
+        "Rating": 5,
+        "DatePosted": "2018-06-14T15:00:00Z",
+        "EventId": 0
+      }
+    ],
+    "Picture": "https://scontent.fzag4-1.fna.fbcdn.net/v/t39.30808-6/280615276_433968068538976_5888327116762361445_n.jpg?_nc_cat=103&ccb=1-7&_nc_sid=e3f864&_nc_ohc=HEQoGU4oKTYAX9IMBbD&_nc_ht=scontent.fzag4-1.fna&oh=00_AT96ufCzSYo0DZyAPoAxVkGozq7Ox0AtLkkGziuDT8ix0g&oe=62AD5DE9"
+  },
+  {
+    "EventID": 2,
+    "Title": "Tom Jones",
+    "StartDate": "2018-06-14T15:00:00Z",
+    "EndDate": "2018-06-14T16:00:00Z",
+    "Location": {
+      "LocationId": 2,
+      "AddressId": 2,
+      "Venue": "Ljetna Pozornica Opatija",
+      "Address": {
+        "AddressId": 0,
+        "City": "Opatija",
+        "ZipCode": "12345",
+        "Street": "Morska",
+        "HouseNumber": "5"
+      }
+    },
+    "LocationId": 4,
+    "User": {
+      "UserId": 1,
+      "Username": "Goran3",
+      "Email": "goran@rina.com",
+      "Address": {
+        "AddressId": 222,
+        "City": "Osijek",
+        "ZipCode": "31000",
+        "Street": "Ulica Marka",
+        "HouseNumber": "5"
+      },
+      "Picture":"https://scontent.fzag4-1.fna.fbcdn.net/v/t39.30808-6/280615276_433968068538976_5888327116762361445_n.jpg?_nc_cat=103&ccb=1-7&_nc_sid=e3f864&_nc_ohc=HEQoGU4oKTYAX9IMBbD&_nc_ht=scontent.fzag4-1.fna&oh=00_AT96ufCzSYo0DZyAPoAxVkGozq7Ox0AtLkkGziuDT8ix0g&oe=62AD5DE9",
+      "ContactName": "Vlatko",
+      "PhoneNumber": "555-555",
+      "UserType": 1
+    },
+    "EventType": 2,
+    "TicketsAvailable": [
+      {
+        "TicketId": 0,
+        "Price": 222,
+        "QRCode": "5",
+        "TicketOwner": {
+          "ContactId": 5,
+          "FirstName": "Kesten",
+          "LastName": "Perkovic",
+          "Email": "kesten@perkovic.com",
+          "Age": 23,
+          "Address": {
+            "AddressId": 1,
+            "City": "Zagreb",
+            "ZipCode": "10000",
+            "Street": "Pilica",
+            "HouseNumber": "5"
+          },
+          "AddressId": 0
+        },
+        "PrintableToPdf": false,
+        "EventId": 0,
+        "ContactId": 0
+      },
+      {
+        "TicketId": 0,
+        "Price": 222,
+        "QRCode": "5",
+        "TicketOwner": {
+          "ContactId": 5,
+          "FirstName": "Perkovic",
+          "LastName": "Kesten",
+          "Email": "kesten@kesten.com",
+          "Age": 33,
+          "Address": {
+            "AddressId": 1,
+            "City": "Zagreb",
+            "ZipCode": "10000",
+            "Street": "Ilica",
+            "HouseNumber": "5"
+          },
+          "AddressId": 0
+        },
+        "PrintableToPdf": false,
+        "EventId": 0,
+        "ContactId": 0
+      },
+      {
+        "TicketId": 0,
+        "Price": 222,
+        "QRCode": "5",
+        "TicketOwner": {
+          "ContactId": 5,
+          "FirstName": "Svemirko",
+          "LastName": "Perkovic",
+          "Email": "svemirko@perkovic.com",
+          "Age": 35,
+          "Address": {
+            "AddressId": 1,
+            "City": "Zagreb",
+            "ZipCode": "10000",
+            "Street": "Vrapče",
+            "HouseNumber": "420"
+          },
+          "AddressId": 0
+        },
+        "PrintableToPdf": false,
+        "EventId": 0,
+        "ContactId": 0
+      }
+    ],
+    "Comments": [
+      {
+        "CommentId": 0,
+        "Text": "Solidno",
+        "Author": "Kiki",
+        "Rating": 4,
+        "DatePosted": "2018-06-14T15:00:00Z",
+        "EventId": 0
+      },
+      {
+        "CommentId": 0,
+        "Text": "Jako dobar party",
+        "Author": "Prika",
+        "Rating": 5,
+        "DatePosted": "2018-06-14T15:00:00Z",
+        "EventId": 0
+      }
+    ],
+    "Picture": "https://www.festivalopatija.hr/wp_fo/wp-content/uploads/2022/03/tom_jones-504x238.jpg"
+  },
+  {
+    "EventID": 3,
+    "Title": "Nina Badrić",
+    "StartDate": "2019-06-14T15:00:00Z",
+    "EndDate": "2019-06-14T16:00:00Z",
+    "Location": {
+      "LocationId": 3,
+      "AddressId": 3,
+      "Venue": "Tvrđava sv. Mihovila",
+      "Address": {
+        "AddressId": 3,
+        "City": "Šibenik",
+        "ZipCode": "11111",
+        "Street": "Mihovilova",
+        "HouseNumber": "5"
+      }
+    },
+    "LocationId": 3,
+    "User": {
+      "UserId": 1,
+      "Username": "Goran3",
+      "Email": "goran@rina.com",
+      "Address": {
+        "AddressId": 222,
+        "City": "Osijek",
+        "ZipCode": "31000",
+        "Street": "Ulica Marka",
+        "HouseNumber": "5"
+      },
+      "Picture":"https://scontent.fzag4-1.fna.fbcdn.net/v/t39.30808-6/280615276_433968068538976_5888327116762361445_n.jpg?_nc_cat=103&ccb=1-7&_nc_sid=e3f864&_nc_ohc=HEQoGU4oKTYAX9IMBbD&_nc_ht=scontent.fzag4-1.fna&oh=00_AT96ufCzSYo0DZyAPoAxVkGozq7Ox0AtLkkGziuDT8ix0g&oe=62AD5DE9",
+      "ContactName": "Vlatko",
+      "PhoneNumber": "555-555",
+      "UserType": 1
+    },
+    "EventType": 3,
+    "TicketsAvailable": [
+      {
+        "TicketId": 0,
+        "Price": 300,
+        "QRCode": "5",
+        "TicketOwner": {
+          "ContactId": 5,
+          "FirstName": "Boško",
+          "LastName": "Balaban",
+          "Email": "bosko@bosko.com",
+          "Age": 45,
+          "Address": {
+            "AddressId": 23,
+            "City": "Zagreb",
+            "ZipCode": "10000",
+            "Street": "Maksimirska",
+            "HouseNumber": "67"
+          },
+          "AddressId": 0
+        },
+        "PrintableToPdf": false,
+        "EventId": 0,
+        "ContactId": 0
+      },
+      {
+        "TicketId": 1,
+        "Price": 300,
+        "QRCode": "5",
+        "TicketOwner": {
+          "ContactId": 5,
+          "FirstName": "Borna",
+          "LastName": "Perkovic",
+          "Email": "borna@perkovic.com",
+          "Age": 232,
+          "Address": {
+            "AddressId": 1,
+            "City": "Zagreb",
+            "ZipCode": "10000",
+            "Street": "Ilica",
+            "HouseNumber": "5"
+          },
+          "AddressId": 0
+        },
+        "PrintableToPdf": false,
+        "EventId": 0,
+        "ContactId": 0
+      }
+    ],
+    "Comments": [
+      {
+        "CommentId": 0,
+        "Text": "Jako dobar party",
+        "Author": "Vele",
+        "Rating": 5,
+        "DatePosted": "2018-06-14T15:00:00Z",
+        "EventId": 0
+      },
+      {
+        "CommentId": 2,
+        "Text": "Onako nešto",
+        "Author": "Kositreni",
+        "Rating": 3,
+        "DatePosted": "2018-06-14T15:00:00Z",
+        "EventId": 0
+      }
+    ],
+    "Picture": "https://storage.bljesak.info/image/275053/800x550/nina-badric-plakat.jpg"
+  },
+  {
+    "EventID": 0,
+    "Title": "Doris Dragović",
+    "StartDate": "2020-06-14T15:00:00Z",
+    "EndDate": "2020-06-14T16:00:00Z",
+    "Location": {
+      "LocationId": 1,
+      "AddressId": 0,
+      "Venue": "Spaladium Arena",
+      "Address": {
+        "AddressId": 0,
+        "City": "Split",
+        "ZipCode": "20000",
+        "Street": "Riva",
+        "HouseNumber": "2"
+      }
+    },
+    "LocationId": 4,
+    "User": {
+      "UserId": 1,
+      "Username": "Morana",
+      "Email": "morana@rina.com",
+      "Address": {
+        "AddressId": 222,
+        "City": "Dubrovnik",
+        "ZipCode": "22222",
+        "Street": "Ulica Marka kralja",
+        "HouseNumber": "5"
+      },
+      "Picture":"https://scontent.fzag4-1.fna.fbcdn.net/v/t39.30808-6/280615276_433968068538976_5888327116762361445_n.jpg?_nc_cat=103&ccb=1-7&_nc_sid=e3f864&_nc_ohc=HEQoGU4oKTYAX9IMBbD&_nc_ht=scontent.fzag4-1.fna&oh=00_AT96ufCzSYo0DZyAPoAxVkGozq7Ox0AtLkkGziuDT8ix0g&oe=62AD5DE9",
+      "ContactName": "Morana",
+      "PhoneNumber": "888-989",
+      "UserType": 1
+    },
+    "EventType": 3,
+    "TicketsAvailable": [
+      {
+        "TicketId": 0,
+        "Price": 322,
+        "QRCode": "5",
+        "TicketOwner": {
+          "ContactId": 5,
+          "FirstName": "Bugarko",
+          "LastName": "Perkovic",
+          "Email": "marko@perkovic.com",
+          "Age": 33,
+          "Address": {
+            "AddressId": 1,
+            "City": "Zagreb",
+            "ZipCode": "10000",
+            "Street": "Vilica",
+            "HouseNumber": "5"
+          },
+          "AddressId": 0
+        },
+        "PrintableToPdf": false,
+        "EventId": 0,
+        "ContactId": 0
+      },
+      {
+        "TicketId": 0,
+        "Price": 322,
+        "QRCode": "5",
+        "TicketOwner": {
+          "ContactId": 5,
+          "FirstName": "Vladimir",
+          "LastName": "Todorić",
+          "Email": "marko@perkovic.com",
+          "Age": 11,
+          "Address": {
+            "AddressId": 1,
+            "City": "Zagreb",
+            "ZipCode": "10000",
+            "Street": "Vilica",
+            "HouseNumber": "5"
+          },
+          "AddressId": 0
+        },
+        "PrintableToPdf": false,
+        "EventId": 0,
+        "ContactId": 0
+      },
+      {
+        "TicketId": 0,
+        "Price": 322,
+        "QRCode": "5",
+        "TicketOwner": {
+          "ContactId": 5,
+          "FirstName": "Marko",
+          "LastName": "Todorić",
+          "Email": "marko@perkovic.com",
+          "Age": 33,
+          "Address": {
+            "AddressId": 1,
+            "City": "Zagreb",
+            "ZipCode": "10000",
+            "Street": "Vilica",
+            "HouseNumber": "5"
+          },
+          "AddressId": 0
+        },
+        "PrintableToPdf": false,
+        "EventId": 0,
+        "ContactId": 0
+      }
+    ],
+    "Comments": [     
+      {
+        "CommentId": 0,
+        "Text": "Spektakularno",
+        "Author": "VTodorić",
+        "Rating": 5,
+        "DatePosted": "2021-06-14T15:00:00Z",
+        "EventId": 0
+      }
+    ],
+    "Picture": "https://content.eventim.com/static/uploaded/at/w/u/x/w/wuxw_960_360.jpeg"
+  },
+  {
+    "EventID": 5,
+    "Title": "Rage against the machine",
+    "StartDate": "2022-08-14T15:00:00Z",
+    "EndDate": "2022-08-14T22:00:00Z",
+    "Location": {
+      "LocationId": 5,
+      "AddressId": 5,
+      "Venue": "Arena Zagreb",
+      "Address": {
+        "AddressId": 0,
+        "City": "Zagreb",
+        "ZipCode": "10000",
+        "Street": "Lanište",
+        "HouseNumber": "21"
+      }
+    },
+    "LocationId": 5,
+    "User": {
+      "UserId": 1,
+      "Username": "Morana",
+      "Email": "morana@rina.com",
+      "Address": {
+        "AddressId": 222,
+        "City": "Dubrovnik",
+        "ZipCode": "22222",
+        "Street": "Ulica Marka kralja",
+        "HouseNumber": "5"
+      },
+      "Picture":"https://scontent.fzag4-1.fna.fbcdn.net/v/t39.30808-6/280615276_433968068538976_5888327116762361445_n.jpg?_nc_cat=103&ccb=1-7&_nc_sid=e3f864&_nc_ohc=HEQoGU4oKTYAX9IMBbD&_nc_ht=scontent.fzag4-1.fna&oh=00_AT96ufCzSYo0DZyAPoAxVkGozq7Ox0AtLkkGziuDT8ix0g&oe=62AD5DE9",
+      "ContactName": "Morana",
+      "PhoneNumber": "888-989",
+      "UserType": 1
+    },
+    "EventType": 3,
+    "TicketsAvailable": [     
+      {
+        "TicketId": 0,
+        "Price": 150,
+        "QRCode": "5",
+        "TicketOwner": {
+          "ContactId": 5,
+          "FirstName": "Marko",
+          "LastName": "Perkovic",
+          "Email": "marko@perkovic.com",
+          "Age": 39,
+          "Address": {
+            "AddressId": 1,
+            "City": "Zagreb",
+            "ZipCode": "10000",
+            "Street": "Ilica",
+            "HouseNumber": "5"
+          },
+          "AddressId": 0
+        },
+        "PrintableToPdf": false,
+        "EventId": 0,
+        "ContactId": 0
+      },
+      {
+        "TicketId": 0,
+        "Price": 120,
+        "QRCode": "5",
+        "TicketOwner": {
+          "ContactId": 5,
+          "FirstName": "Boris",
+          "LastName": "Perkovic",
+          "Email": "marko@perkovic.com",
+          "Age": 39,
+          "Address": {
+            "AddressId": 1,
+            "City": "Zagreb",
+            "ZipCode": "10000",
+            "Street": "Ilica",
+            "HouseNumber": "5"
+          },
+          "AddressId": 0
+        },
+        "PrintableToPdf": true,
+        "EventId": 0,
+        "ContactId": 0
+      },
+      {
+        "TicketId": 0,
+        "Price": 120,
+        "QRCode": "5",
+        "TicketOwner": {
+          "ContactId": 5,
+          "FirstName": "Ana",
+          "LastName": "Perkovic",
+          "Email": "marko@perkovic.com",
+          "Age": 33,
+          "Address": {
+            "AddressId": 1,
+            "City": "Zagreb",
+            "ZipCode": "10000",
+            "Street": "Ilica",
+            "HouseNumber": "5"
+          },
+          "AddressId": 0
+        },
+        "PrintableToPdf": false,
+        "EventId": 0,
+        "ContactId": 0
+      }
+    ],
+    "Comments": [
+      {
+        "CommentId": 0,
+        "Text": "Jako dobar party",
+        "Author": "Ana",
+        "Rating": 5,
+        "DatePosted": "2018-06-14T15:00:00Z",
+        "EventId": 0
+      },
+      {
+        "CommentId": 0,
+        "Text": "Srbija",
+        "Author": "Lovorka",
+        "Rating": 5,
+        "DatePosted": "2018-06-14T15:00:00Z",
+        "EventId": 0
+      }    
+    ],
+    "Picture": "https://www.ph-pit.com/wp-content/uploads/2022/04/278508707_5166466230077085_4903039869162410875_n-696x364.jpg"
+  },
+  {
+    "EventID": 6,
+    "Title": "LMF Festival",
+    "StartDate": "2022-06-06T15:00:00Z",
+    "EndDate": "2022-06-08T16:00:00Z",
+    "Location": {
+      "LocationId": 6,
+      "AddressId": 6,
+      "Venue": "Jarun",
+      "Address": {
+        "AddressId": 0,
+        "City": "Zagreb",
+        "ZipCode": "10000",
+        "Street": "Jarunska",
+        "HouseNumber": "23"
+      }
+    },
+    "LocationId": 6,
+    "User": {
+      "UserId": 3,
+      "Username": "Ivan",
+      "Email": "ivan@events.com",
+      "Address": {
+        "AddressId": 222,
+        "City": "Osijek",
+        "ZipCode": "10000",
+        "Street": "Ulica pobjede",
+        "HouseNumber": "6"
+      },
+      "Picture":"https://static.wikia.nocookie.net/thetanklore/images/9/99/Lemonke.jpg/revision/latest/top-crop/width/360/height/450?cb=20210120063807",
+      "ContactName": "Ivan",
+      "PhoneNumber": "999-899",
+      "UserType": 1
+    },
+    "EventType": 2,
+    "TicketsAvailable": [
+      {
+        "TicketId": 0,
+        "Price": 212,
+        "QRCode": "12",
+        "TicketOwner": {
+          "ContactId": 55,
+          "FirstName": "Karlo",
+          "LastName": "Karlović",
+          "Email": "karlo@karlovic.com",
+          "Age": 27,
+          "Address": {
+            "AddressId": 12,
+            "City": "Zagreb",
+            "ZipCode": "10000",
+            "Street": "Jarunska",
+            "HouseNumber": "21"
+          },
+          "AddressId": 12
+        },
+        "PrintableToPdf": false,
+        "EventId": 6,
+        "ContactId": 55
+      },
+      {
+        "TicketId": 0,
+        "Price": 212,
+        "QRCode": "5",
+        "TicketOwner": {
+          "ContactId": 678,
+          "FirstName": "Vedran",
+          "LastName": "Vedranović",
+          "Email": "vedran@vedranović.com",
+          "Age": 33,
+          "Address": {
+            "AddressId": 1,
+            "City": "Zagreb",
+            "ZipCode": "10000",
+            "Street": "Ilica",
+            "HouseNumber": "5"
+          },
+          "AddressId": 0
+        },
+        "PrintableToPdf": false,
+        "EventId": 0,
+        "ContactId": 0
+      },
+      {
+        "TicketId": 0,
+        "Price": 212,
+        "QRCode": "5",
+        "TicketOwner": {
+          "ContactId": 5,
+          "FirstName": "Bernard",
+          "LastName": "Bernardović",
+          "Email": "bernard@bernardovic.com",
+          "Age": 33,
+          "Address": {
+            "AddressId": 1,
+            "City": "Zagreb",
+            "ZipCode": "10000",
+            "Street": "Ilica",
+            "HouseNumber": "5"
+          },
+          "AddressId": 0
+        },
+        "PrintableToPdf": false,
+        "EventId": 0,
+        "ContactId": 0
+      },
+      {
+        "TicketId": 0,
+        "Price": 120,
+        "QRCode": "5",
+        "TicketOwner": {
+          "ContactId": 5,
+          "FirstName": "David",
+          "LastName": "Perkovic",
+          "Email": "david@perkovic.com",
+          "Age": 33,
+          "Address": {
+            "AddressId": 1,
+            "City": "Zagreb",
+            "ZipCode": "10000",
+            "Street": "Ilica",
+            "HouseNumber": "5"
+          },
+          "AddressId": 0
+        },
+        "PrintableToPdf": false,
+        "EventId": 0,
+        "ContactId": 0
+      }
+    ],
+    "Comments": [    
+      {
+        "CommentId": 0,
+        "Text": "WOW",
+        "Author": "Razum",
+        "Rating": 5,
+        "DatePosted": "2022-06-14T15:00:00Z",
+        "EventId": 0
+      }
+    ],
+    "Picture": "https://content.eventim.com/static/uploaded/at/g/z/c/b/gzcb_300_300.jpeg"
+  },
+  {
+    "EventID": 0,
+    "Title": "Tompson",
+    "StartDate": "2018-06-14T15:00:00Z",
+    "EndDate": "2018-06-14T16:00:00Z",
+    "Location": {
+      "LocationId": 1,
+      "AddressId": 0,
+      "Venue": "Gradski Vrt",
+      "Address": {
+        "AddressId": 0,
+        "City": "Osijek",
+        "ZipCode": "31000",
+        "Street": "Ulica",
+        "HouseNumber": "5"
+      }
+    },
+    "LocationId": 4,
+    "User": {
+      "UserId": 3,
+      "Username": "Ivan",
+      "Email": "ivan@events.com",
+      "Address": {
+        "AddressId": 222,
+        "City": "Osijek",
+        "ZipCode": "10000",
+        "Street": "Ulica pobjede",
+        "HouseNumber": "6"
+      },
+      "Picture":"https://static.wikia.nocookie.net/thetanklore/images/9/99/Lemonke.jpg/revision/latest/top-crop/width/360/height/450?cb=20210120063807",
+      "ContactName": "Ivan",
+      "PhoneNumber": "999-899",
+      "UserType": 1
+    },
+    "EventType": 3,
+    "TicketsAvailable": [
+      {
+        "TicketId": 0,
+        "Price": 120,
+        "QRCode": "5",
+        "TicketOwner": {
+          "ContactId": 5,
+          "FirstName": "Marko",
+          "LastName": "Perkovic",
+          "Email": "marko@perkovic.com",
+          "Age": 33,
+          "Address": {
+            "AddressId": 1,
+            "City": "Zagreb",
+            "ZipCode": "10000",
+            "Street": "Ilica",
+            "HouseNumber": "5"
+          },
+          "AddressId": 0
+        },
+        "PrintableToPdf": false,
+        "EventId": 0,
+        "ContactId": 0
+      },
+      {
+        "TicketId": 0,
+        "Price": 120,
+        "QRCode": "5",
+        "TicketOwner": {
+          "ContactId": 5,
+          "FirstName": "Marko",
+          "LastName": "Tompson",
+          "Email": "marko@perkovic.com",
+          "Age": 33,
+          "Address": {
+            "AddressId": 1,
+            "City": "Zagreb",
+            "ZipCode": "10000",
+            "Street": "Ilica",
+            "HouseNumber": "5"
+          },
+          "AddressId": 0
+        },
+        "PrintableToPdf": false,
+        "EventId": 0,
+        "ContactId": 0
+      },
+      {
+        "TicketId": 0,
+        "Price": 120,
+        "QRCode": "5",
+        "TicketOwner": {
+          "ContactId": 5,
+          "FirstName": "Marko",
+          "LastName": "Perkovic",
+          "Email": "marko@perkovic.com",
+          "Age": 33,
+          "Address": {
+            "AddressId": 1,
+            "City": "Zagreb",
+            "ZipCode": "10000",
+            "Street": "Ilica",
+            "HouseNumber": "5"
+          },
+          "AddressId": 0
+        },
+        "PrintableToPdf": false,
+        "EventId": 0,
+        "ContactId": 0
+      },
+      {
+        "TicketId": 0,
+        "Price": 120,
+        "QRCode": "5",
+        "TicketOwner": {
+          "ContactId": 5,
+          "FirstName": "Marko",
+          "LastName": "Perkovic",
+          "Email": "marko@perkovic.com",
+          "Age": 33,
+          "Address": {
+            "AddressId": 1,
+            "City": "Zagreb",
+            "ZipCode": "10000",
+            "Street": "Ilica",
+            "HouseNumber": "5"
+          },
+          "AddressId": 0
+        },
+        "PrintableToPdf": false,
+        "EventId": 0,
+        "ContactId": 0
+      },
+      {
+        "TicketId": 0,
+        "Price": 120,
+        "QRCode": "5",
+        "TicketOwner": {
+          "ContactId": 5,
+          "FirstName": "Marko",
+          "LastName": "Perkovic",
+          "Email": "marko@perkovic.com",
+          "Age": 33,
+          "Address": {
+            "AddressId": 1,
+            "City": "Zagreb",
+            "ZipCode": "10000",
+            "Street": "Ilica",
+            "HouseNumber": "5"
+          },
+          "AddressId": 0
+        },
+        "PrintableToPdf": false,
+        "EventId": 0,
+        "ContactId": 0
+      }
+    ],
+    "Comments": [     
+      {
+        "CommentId": 0,
+        "Text": "Jako jako dobar party",
+        "Author": "Montezuma",
+        "Rating": 5,
+        "DatePosted": "2018-06-14T15:00:00Z",
+        "EventId": 0
+      },
+      {
+        "CommentId": 0,
+        "Text": "Jako dobar party",
+        "Author": "Montezuma",
+        "Rating": 5,
+        "DatePosted": "2018-06-14T15:00:00Z",
+        "EventId": 0
+      }
+    ],
+    "Picture": "https://content.eventim.com/static/uploaded/at/t/x/p/6/txp6_300_300.jpeg"
+  },
+  {
+    "EventID": 9,
+    "Title": "2Cellos",
+    "StartDate": "2022-09-19T15:00:00Z",
+    "EndDate": "2022-09-19T16:00:00Z",
+    "Location": {
+      "LocationId": 9,
+      "AddressId": 9,
+      "Venue": "Arena Zagreb",
+      "Address": {
+        "AddressId": 0,
+        "City": "Zagreb",
+        "ZipCode": "10000",
+        "Street": "Lanište",
+        "HouseNumber": "5"
+      }
+    },
+    "LocationId": 9,
+    "User":  {
+      "UserId": 3,
+      "Username": "Ivan",
+      "Email": "ivan@events.com",
+      "Address": {
+        "AddressId": 222,
+        "City": "Osijek",
+        "ZipCode": "10000",
+        "Street": "Ulica pobjede",
+        "HouseNumber": "6"
+      },
+      "Picture":"https://static.wikia.nocookie.net/thetanklore/images/9/99/Lemonke.jpg/revision/latest/top-crop/width/360/height/450?cb=20210120063807",
+      "ContactName": "Ivan",
+      "PhoneNumber": "999-899",
+      "UserType": 1
+    },
+    "EventType": 3,
+    "TicketsAvailable": [
+      {
+        "TicketId": 0,
+        "Price": 1000,
+        "QRCode": "5",
+        "TicketOwner": {
+          "ContactId": 5,
+          "FirstName": "Violon",
+          "LastName": "Čelo",
+          "Email": "chello@perkovic.com",
+          "Age": 19,
+          "Address": {
+            "AddressId": 1,
+            "City": "Zagreb",
+            "ZipCode": "10000",
+            "Street": "Ilica",
+            "HouseNumber": "5"
+          },
+          "AddressId": 0
+        },
+        "PrintableToPdf": false,
+        "EventId": 0,
+        "ContactId": 0
+      },
+      {
+        "TicketId": 0,
+        "Price": 575,
+        "QRCode": "5",
+        "TicketOwner": {
+          "ContactId": 5,
+          "FirstName": "Klavir",
+          "LastName": "Perkovic",
+          "Email": "klavir@perkovic.com",
+          "Age": 38,
+          "Address": {
+            "AddressId": 1,
+            "City": "Zagreb",
+            "ZipCode": "10000",
+            "Street": "Ilica",
+            "HouseNumber": "5"
+          },
+          "AddressId": 0
+        },
+        "PrintableToPdf": false,
+        "EventId": 0,
+        "ContactId": 0
+      }
+    ],
+    "Comments": [
+      {
+        "CommentId": 0,
+        "Text": "Kakva žurka",
+        "Author": "Montezuma",
+        "Rating": 5,
+        "DatePosted": "2018-06-14T15:00:00Z",
+        "EventId": 0
+      },
+      {
+        "CommentId": 0,
+        "Text": "Nikad više",
+        "Author": "Montezuma",
+        "Rating": 1,
+        "DatePosted": "2018-06-14T15:00:00Z",
+        "EventId": 0
+      }
+    ],
+    "Picture": "https://scontent.fzag4-1.fna.fbcdn.net/v/t39.30808-6/284251284_563667771782637_6160670612632661790_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=730e14&_nc_ohc=Oz2SJyCWVHwAX-eCscS&_nc_ht=scontent.fzag4-1.fna&oh=00_AT95IhiZPSDrfQ821JE-lr13uSWxc_e1hDpW9Ek6N5FjqQ&oe=62AE0C13"
+  }
+]
