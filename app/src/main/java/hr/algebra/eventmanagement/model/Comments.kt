@@ -18,10 +18,10 @@ For support, please feel free to contact me at https://www.linkedin.com/in/syeda
 @Parcelize
 data class Comments (
 
-	@SerializedName("CommentId") val commentId : Int?,
-	@SerializedName("Text") val text : String,
-	@SerializedName("Author") val author : String?,
-	@SerializedName("Rating") val rating : Float,
-	@SerializedName("DatePosted") val datePosted : String,
-	@SerializedName("EventId") val eventId : Int
+    @SerializedName("commentId") val commentId: Int?,
+    @SerializedName("text") val text: String,
+    @SerializedName("author") val author: String?,
+    @SerializedName("rating") val rating: Float,
+    @SerializedName("datePosted") val datePosted: String,
+    @SerializedName("eventId") val eventId: Int
 ): Parcelable

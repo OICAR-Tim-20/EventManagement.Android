@@ -1,0 +1,386 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragments.CheckoutFragment">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <com.google.android.material.appbar.MaterialToolbar
+            android:id="@+id/mtCheckout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:layout_constraintTop_toTopOf="parent"
+            app:navigationIcon="@drawable/ic_back">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="@string/checkout"
+                android:textAppearance="@style/TextAppearance.Material3.BodyLarge"
+                android:textSize="20sp" />
+
+        </com.google.android.material.appbar.MaterialToolbar>
+
+        <TextView
+            android:id="@+id/tvName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/marginEverything"
+            android:layout_marginTop="@dimen/marginEverything"
+            android:text="@string/full_name"
+            android:textAppearance="@style/TextAppearance.Material3.BodyLarge"
+            android:textSize="15sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/mtCheckout" />
+
+        <FrameLayout
+            android:id="@+id/flFullName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:layout_constraintTop_toBottomOf="@id/tvName">
+
+            <EditText
+                android:id="@+id/etName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/marginEverything"
+                android:layout_marginEnd="@dimen/marginEverything"
+                android:autofillHints="name"
+                android:inputType="text"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent" />
+
+            <ImageView
+                android:id="@+id/ivFullNameCorrectness"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_gravity="end"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="40dp" />
+
+        </FrameLayout>
+
+        <TextView
+            android:id="@+id/tvEmail"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/marginEverything"
+            android:layout_marginTop="@dimen/marginEverything"
+            android:text="@string/email"
+            android:textAppearance="@style/TextAppearance.Material3.BodyLarge"
+            android:textSize="15sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/flFullName" />
+
+        <FrameLayout
+            android:id="@+id/frameLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:layout_constraintTop_toBottomOf="@id/tvEmail">
+
+            <EditText
+                android:id="@+id/etEmail"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/marginEverything"
+                android:layout_marginEnd="@dimen/marginEverything"
+                android:autofillHints="emailAddress"
+                android:inputType="textEmailAddress" />
+
+            <ImageView
+                android:id="@+id/ivCorrectOrWrong"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_gravity="end"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="40dp" />
+
+        </FrameLayout>
+
+        <com.google.android.material.divider.MaterialDivider
+            android:id="@+id/materialDividerOne"
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:layout_marginTop="@dimen/marginEverything"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/frameLayout" />
+
+        <TextView
+            android:id="@+id/tvTicketName"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/marginEverything"
+            android:layout_marginTop="@dimen/marginEverything"
+            android:text="1x Parni Valjak - Rock on Koncert - General Admissions"
+            android:textAppearance="@style/TextAppearance.Material3.BodyLarge"
+            app:layout_constraintEnd_toStartOf="@id/tvTicketCost"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/materialDividerOne" />
+
+        <TextView
+            android:id="@+id/tvTicketCost"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/marginEverything"
+            android:layout_marginEnd="@dimen/marginEverything"
+            android:text="@string/_200_00_kn"
+            android:textAppearance="@style/TextAppearance.Material3.BodyLarge"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/materialDividerOne" />
+
+        <com.google.android.material.divider.MaterialDivider
+            android:id="@+id/materialDividerTwo"
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:layout_marginTop="@dimen/marginEverything"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/tvTicketName" />
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/clCardInfo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/marginEverything"
+            app:layout_constraintTop_toBottomOf="@id/materialDividerTwo">
+
+            <TextView
+                android:id="@+id/tvCreditCardInfo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/marginEverything"
+                android:text="@string/credit_card_information"
+                android:textAppearance="@style/TextAppearance.AppCompat.Title"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/tvCreditCard"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/marginEverything"
+                android:layout_marginTop="@dimen/marginEverything"
+                android:text="@string/card_number"
+                android:textAppearance="@style/TextAppearance.Material3.BodyLarge"
+                android:textSize="15sp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/tvCreditCardInfo" />
+
+            <FrameLayout
+                android:id="@+id/frameLayoutCreditCard"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:layout_constraintTop_toBottomOf="@+id/tvCreditCard">
+
+                <EditText
+                    android:id="@+id/etCreditCard"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/marginEverything"
+                    android:layout_marginEnd="@dimen/marginEverything"
+                    android:autofillHints="creditCardNumber"
+                    android:inputType="phone"
+                    android:maxLength="19"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@id/tvCreditCard" />
+
+                <ImageView
+                    android:id="@+id/ivCardLogo"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_gravity="end"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginEnd="35dp" />
+
+            </FrameLayout>
+
+            <TextView
+                android:id="@+id/tvDateOfExpiration"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/marginEverything"
+                android:layout_marginTop="@dimen/marginEverything"
+                android:text="@string/date_of_expiration"
+                android:textAppearance="@style/TextAppearance.Material3.BodyLarge"
+                android:textSize="15sp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/frameLayoutCreditCard" />
+
+            <EditText
+                android:id="@+id/etDateOfExpiration"
+                android:layout_width="132dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/marginEverything"
+                android:layout_marginEnd="@dimen/marginEverything"
+                android:autofillHints="creditCardExpirationDate"
+                android:inputType="date"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/tvDateOfExpiration" />
+
+            <TextView
+                android:id="@+id/tvCCV"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/marginEverything"
+                android:layout_marginEnd="100dp"
+                android:text="@string/ccv"
+                android:textAppearance="@style/TextAppearance.Material3.BodyLarge"
+                android:textSize="15sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/frameLayoutCreditCard" />
+
+            <EditText
+                android:id="@+id/etCCV"
+                android:layout_width="50dp"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="90dp"
+                android:autofillHints="creditCardSecurityCode"
+                android:inputType="number"
+                android:maxLength="3"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/tvCCV" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <LinearLayout
+            android:id="@+id/llCardHolderInfo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/marginEverything"
+            android:orientation="vertical"
+            app:layout_constraintTop_toBottomOf="@id/clCardInfo">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/credit_card_holder_information"
+                android:textAppearance="@style/TextAppearance.AppCompat.Title" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/marginEverything"
+                android:text="@string/card_holder_name"
+                android:textAppearance="@style/TextAppearance.Material3.BodyLarge" />
+
+            <EditText
+                android:id="@+id/etCardHolderName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textPersonName" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/card_holder_surname"
+                android:textAppearance="@style/TextAppearance.Material3.BodyLarge" />
+
+            <EditText
+                android:id="@+id/etCardHolderSurname"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textPersonName" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/address"
+                android:textAppearance="@style/TextAppearance.Material3.BodyLarge" />
+
+            <EditText
+                android:id="@+id/etCardHolderAddress"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textPostalAddress" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/zip_code"
+                android:textAppearance="@style/TextAppearance.Material3.BodyLarge" />
+
+            <EditText
+                android:id="@+id/etCardHolderZipCode"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="number" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/city"
+                android:textAppearance="@style/TextAppearance.Material3.BodyLarge" />
+
+            <EditText
+                android:id="@+id/etCardHolderCity"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textPersonName" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/country"
+                android:textAppearance="@style/TextAppearance.Material3.BodyLarge" />
+
+            <EditText
+                android:id="@+id/etCardHolderCountry"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textPersonName" />
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:id="@+id/llTermsAndConditions"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            app:layout_constraintTop_toBottomOf="@id/llCardHolderInfo">
+
+            <CheckBox
+                android:id="@+id/cbAgreement"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="50dp"
+                android:checked="false" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/i_agree_with" />
+
+            <TextView
+                android:id="@+id/tvTermsAndConditions"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="2dp"
+                android:clickable="true"
+                android:focusable="true"
+                android:text="@string/terms_and_conditions"
+                android:textColor="#0000FF" />
+
+        </LinearLayout>
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btnFinishTicketPurchase"
+            android:layout_width="200dp"
+            android:layout_height="60dp"
+            android:layout_marginTop="@dimen/marginEverything"
+            android:enabled="false"
+            android:text="@string/buy_tickets"
+            app:cornerRadius="20dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/llTermsAndConditions" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.core.widget.NestedScrollView>

@@ -2,7 +2,6 @@ package hr.algebra.eventmanagement.model
 
 import android.os.Parcelable
 import com.google.gson.annotations.SerializedName
-import hr.algebra.eventmanagement.model.Address
 import kotlinx.parcelize.Parcelize
 
 /*
@@ -19,8 +18,8 @@ For support, please feel free to contact me at https://www.linkedin.com/in/syeda
 @Parcelize
 data class Location (
 
-	@SerializedName("LocationId") val locationId : Int,
-	@SerializedName("AddressId") val addressId : Int,
-	@SerializedName("Venue") val venue : String,
-	@SerializedName("Address") val address : Address
+	@SerializedName("locationId") val locationId: Int,
+	@SerializedName("address") val address: Address,
+	@SerializedName("venue") val venue: String,
+	@SerializedName("addressId") val addressId: Int
 ): Parcelable

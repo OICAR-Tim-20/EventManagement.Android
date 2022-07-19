@@ -20,6 +20,7 @@
         android:layout_margin="20dp"
         android:layout_marginStart="20dp"
         android:text="@string/name"
+        android:textAppearance="@style/TextAppearance.Material3.BodyLarge"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintTop_toBottomOf="@id/tvTitle" />
 
@@ -43,21 +44,22 @@
         android:layout_margin="20dp"
         android:layout_marginStart="20dp"
         android:text="@string/comment"
+        android:textAppearance="@style/TextAppearance.Material3.BodyLarge"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintTop_toBottomOf="@id/tvLeaveName" />
 
     <RatingBar
         android:id="@+id/rbComment"
-        android:min="1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="10dp"
-        android:stepSize="0.5"
         android:clickable="true"
         android:focusable="true"
-        app:layout_constraintTop_toBottomOf="@id/etLeaveComment"
+        android:min="1"
+        android:stepSize="1"
         app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"/>
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/etLeaveComment" />
 
     <EditText
         android:id="@+id/etLeaveComment"
@@ -87,7 +89,7 @@
         android:layout_width="100dp"
         android:layout_height="48dp"
         android:layout_marginEnd="20dp"
-        android:backgroundTint="@android:color/holo_red_dark"
+        android:backgroundTint="@android:color/holo_red_light"
         android:text="@string/cancel"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toBottomOf="@id/rbComment" />

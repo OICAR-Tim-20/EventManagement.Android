@@ -27,7 +27,7 @@ class CommentAdapter : RecyclerView.Adapter<CommentAdapter.CommentHolder>() {
         holder.bind(comment)
     }
 
-    fun update(comments: MutableList<Comments>) {
+    fun update(comments: List<Comments>) {
         commentList = comments
         notifyDataSetChanged()
     }
@@ -42,7 +42,7 @@ class CommentAdapter : RecyclerView.Adapter<CommentAdapter.CommentHolder>() {
             binding.tvComment.text = comment.text
             binding.tvAnonymous.text = comment.author
             binding.rbRating.rating = comment.rating
-            binding.tvRatingNumbers.text = "${comment.rating}/5"
+            binding.tvRatingNumbers.text = "${comment.rating}/5.0"
         }
 
     }

@@ -33,6 +33,7 @@
 
         <TextView
             android:id="@+id/tvEventDetailsName"
+            style="@style/TextAppearance.Material3.BodyMedium"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginStart="10dp"
@@ -51,6 +52,7 @@
 
         <TextView
             android:id="@+id/tvDateDetails"
+            style="@style/TextAppearance.Material3.BodyMedium"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="30dp"
@@ -62,13 +64,14 @@
         <ImageView
             android:layout_width="15dp"
             android:layout_height="15dp"
-            app:layout_constraintTop_toBottomOf="@id/tvEventDetailsName"
-            android:layout_marginTop="10dp"
+            android:layout_marginTop="12dp"
+            android:src="@drawable/ic_location"
             app:layout_constraintEnd_toStartOf="@id/tvLocationDetails"
-            android:src="@drawable/ic_location"/>
+            app:layout_constraintTop_toBottomOf="@id/tvEventDetailsName" />
 
         <TextView
             android:id="@+id/tvLocationDetails"
+            style="@style/TextAppearance.Material3.BodyMedium"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginStart="20dp"
@@ -80,18 +83,19 @@
         <androidx.recyclerview.widget.RecyclerView
             android:id="@+id/rvComments"
             android:layout_width="match_parent"
-            android:layout_height="400dp"
+            android:layout_height="300dp"
             android:layout_marginStart="10dp"
             android:layout_marginEnd="10dp"
             android:scrollbars="vertical"
             app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
-            app:layout_constraintBottom_toTopOf="@id/btnBuyTicket"
-            app:layout_constraintTop_toBottomOf="@id/tvLocationDetails" />
+            app:layout_constraintBottom_toTopOf="@id/rvComments"
+            app:layout_constraintTop_toBottomOf="@id/mbtnComment" />
 
         <com.google.android.material.button.MaterialButton
             android:id="@+id/mbtnComment"
             android:layout_width="100dp"
             android:layout_height="48dp"
+            android:layout_marginTop="@dimen/marginEverything"
             android:text="@string/leave_a_comment"
             android:textAlignment="center"
             android:textAllCaps="false"
@@ -99,19 +103,39 @@
             app:cornerRadius="15dp"
             app:layout_constraintLeft_toLeftOf="parent"
             app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/tvLocationDetails" />
+
+        <Spinner
+            android:id="@+id/spinnerTicketType"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="13dp"
+            android:layout_marginEnd="50dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/rvComments" />
+
+        <Spinner
+            android:id="@+id/spinnerNumberOfTickets"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="13dp"
+            app:layout_constraintStart_toEndOf="@id/spinnerTicketType"
             app:layout_constraintTop_toBottomOf="@id/rvComments" />
 
         <com.google.android.material.button.MaterialButton
             android:id="@+id/btnBuyTicket"
             android:layout_width="200dp"
             android:layout_height="48dp"
-            android:text="@string/buy_ticket"
+            android:layout_marginTop="10dp"
+            android:text="@string/buy_tickets"
             android:textAllCaps="false"
             app:cornerRadius="20dp"
             app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintLeft_toLeftOf="parent"
-            app:layout_constraintRight_toRightOf="parent"
-            app:layout_constraintTop_toBottomOf="@id/mbtnComment" />
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/spinnerTicketType" />
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 </androidx.core.widget.NestedScrollView>

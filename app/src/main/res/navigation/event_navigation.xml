@@ -18,9 +18,33 @@
         android:id="@+id/eventDetailsFragment"
         android:name="hr.algebra.eventmanagement.fragments.EventDetailsFragment"
         android:label="fragment_event_details"
-        tools:layout="@layout/fragment_event_details" >
+        tools:layout="@layout/fragment_event_details">
         <argument
             android:name="event"
             app:argType="hr.algebra.eventmanagement.model.Event" />
+        <action
+            android:id="@+id/action_eventDetailsFragment_to_checkoutFragment"
+            app:destination="@id/checkoutFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/checkoutFragment"
+        android:name="hr.algebra.eventmanagement.fragments.CheckoutFragment"
+        android:label="fragment_checkout"
+        tools:layout="@layout/fragment_checkout">
+        <argument
+            android:name="event"
+            app:argType="hr.algebra.eventmanagement.model.Event" />
+        <argument
+            android:name="numberOfTickets"
+            app:argType="integer" />
+        <argument
+            android:name="ticketType"
+            app:argType="string" />
+        <argument
+            android:name="ticketPrice"
+            app:argType="integer" />
+        <argument
+            android:name="ticketList"
+            app:argType="hr.algebra.eventmanagement.model.Ticket[]" />
     </fragment>
 </navigation>

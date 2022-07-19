@@ -2,20 +2,20 @@
 <com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mcvEvent"
     android:layout_width="match_parent"
-    android:layout_height="200dp"
+    android:layout_height="230dp"
     android:layout_marginBottom="20dp"
-    android:elevation="8dp"
-    app:cardCornerRadius="30dp">
+    android:elevation="8dp">
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
-        android:layout_height="200dp">
+        android:layout_height="match_parent">
 
         <ImageView
             android:id="@+id/ivEventImage"
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
+            android:layout_height="150dp"
             android:layout_marginBottom="60dp"
             android:background="@drawable/imageview_rounded"
             android:clipToOutline="true"
@@ -25,6 +25,7 @@
 
         <TextView
             android:id="@+id/tvEventName"
+            style="@style/TextAppearance.Material3.BodyMedium"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginStart="10dp"
@@ -38,12 +39,13 @@
             android:layout_height="15dp"
             android:layout_marginTop="33dp"
             android:layout_marginEnd="5dp"
+            android:src="@drawable/ic_date"
             app:layout_constraintEnd_toStartOf="@id/tvDate"
-            app:layout_constraintTop_toBottomOf="@id/ivEventImage"
-            android:src="@drawable/ic_date"/>
+            app:layout_constraintTop_toBottomOf="@id/ivEventImage" />
 
         <TextView
             android:id="@+id/tvDate"
+            style="@style/TextAppearance.Material3.BodyMedium"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginStart="30dp"
@@ -62,6 +64,7 @@
 
         <TextView
             android:id="@+id/tvLocation"
+            style="@style/TextAppearance.Material3.BodyMedium"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="15dp"
@@ -72,6 +75,7 @@
 
         <TextView
             android:id="@+id/tvStartTime"
+            style="@style/TextAppearance.Material3.BodyMedium"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="32dp"
@@ -81,12 +85,13 @@
 
         <TextView
             android:id="@+id/tvTicketsAvailable"
+            style="@style/TextAppearance.Material3.BodyMedium"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginTop="32dp"
-            android:layout_marginEnd="10dp"
-            app:layout_constraintEnd_toStartOf="@id/tvStartTime"
-            app:layout_constraintTop_toBottomOf="@id/ivEventImage" />
+            android:layout_marginStart="15dp"
+            android:layout_marginTop="5dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/tvDate" />
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 </com.google.android.material.card.MaterialCardView>

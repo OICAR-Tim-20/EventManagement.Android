@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:orientation="vertical"
     tools:context=".fragments.EventListFragment">
 
@@ -12,11 +12,30 @@
         android:layout_height="wrap_content">
 
         <TextView
-            style="@style/MaterialAlertDialog.MaterialComponents.Title.Text.CenterStacked"
+            style="@style/TextAppearance.AppCompat.Title"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/events"
-            android:textColor="@color/white"/>
+            android:layout_gravity="center"
+            android:text="@string/events" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btnDatePickerDialog"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:layout_gravity="end"
+            android:layout_marginEnd="10dp"
+            android:textAllCaps="false"
+            android:text="@string/pick_a_date" />
+
+        <ImageButton
+            android:id="@+id/imageButtonDeleteFilter"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_gravity="end"
+            android:layout_marginEnd="10dp"
+            android:background="@android:color/transparent"
+            android:src="@drawable/ic_x"
+            android:visibility="gone" />
 
     </androidx.appcompat.widget.Toolbar>
 
@@ -24,6 +43,6 @@
         android:id="@+id/rvEvents"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"/>
+        app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager" />
 
 </LinearLayout>

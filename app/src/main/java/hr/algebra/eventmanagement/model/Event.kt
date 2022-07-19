@@ -18,15 +18,15 @@ For support, please feel free to contact me at https://www.linkedin.com/in/syeda
 @Parcelize
 data class Event (
 
-	@SerializedName("EventID") val eventID : Int,
-	@SerializedName("Title") val title : String,
-	@SerializedName("StartDate") val startDate : String,
-	@SerializedName("EndDate") val endDate : String,
-	@SerializedName("Location") val location : Location,
-	@SerializedName("LocationId") val locationId : Int,
-	@SerializedName("User") val user : User,
-	@SerializedName("EventType") val eventType : Int,
-	@SerializedName("TicketsAvailable") val ticketsAvailable : List<TicketsAvailable>,
-	@SerializedName("Comments") val comments : List<Comments>,
-	@SerializedName("Picture") val picture : String
+    @SerializedName("id") val eventID: Int,
+    @SerializedName("title") val title: String,
+    @SerializedName("startDate") val startDate: String,
+    @SerializedName("endDate") val endDate: String,
+    @SerializedName("location") val location: Location,
+    @SerializedName("locationId") val locationId: Int,
+    @SerializedName("username") val user: String,
+    @SerializedName("eventType") val eventType: String,
+    @SerializedName("ticketsAvailable") val ticketsAvailable: Int,
+    @SerializedName("picture") val picture: String,
+    @SerializedName("comments") val comments: List<Comments>
 ): Parcelable

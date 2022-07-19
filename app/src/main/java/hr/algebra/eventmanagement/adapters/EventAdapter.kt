@@ -1,6 +1,5 @@
 package hr.algebra.eventmanagement.adapters
 
-import hr.algebra.eventmanagement.model.Event
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
@@ -8,7 +7,7 @@ import androidx.recyclerview.widget.RecyclerView
 import com.bumptech.glide.Glide
 import hr.algebra.eventmanagement.R
 import hr.algebra.eventmanagement.databinding.ItemEventBinding
-import hr.algebra.eventmanagement.model.TicketsAvailable
+import hr.algebra.eventmanagement.model.Event
 
 class EventAdapter(private val onTap: (Event) -> Unit) :
     RecyclerView.Adapter<EventAdapter.EventHolder>() {
@@ -31,9 +30,7 @@ class EventAdapter(private val onTap: (Event) -> Unit) :
         holder.bind(event)
     }
 
-    override fun getItemCount(): Int {
-        return 5
-    }
+    override fun getItemCount(): Int = eventListData.size
 
     inner class EventHolder(private val eventView: View) : RecyclerView.ViewHolder(eventView) {
         fun bind(event: Event) {
@@ -44,12 +41,21 @@ class EventAdapter(private val onTap: (Event) -> Unit) :
 
             Glide.with(eventView).load(event.picture).centerCrop().into(binding.ivEventImage)
             binding.tvEventName.text = event.title
-            binding.tvDate.text =
-                "${event.startDate.substring(0, 9)} - ${event.endDate.substring(0, 9)}"
-            binding.tvTicketsAvailable.text = "Tickets available: ${event.ticketsAvailable.size}"
-            binding.tvStartTime.text = event.startDate.substring(11, 19)
+            if (event.endDate == event.startDate) {
+                binding.tvDate.text = event.startDate.substring(0, 10)
+            } else {
+                binding.tvDate.text =
+                    "${event.startDate.substring(0, 10)} - ${event.endDate.substring(0, 10)}"
+            }
+            binding.tvTicketsAvailable.text = "Tickets available: ${event.ticketsAvailable}"
+            binding.tvStartTime.text = "Start time: ${event.startDate.substring(11, 19)}"
             binding.tvLocation.text = "Location: ${event.location.venue}"
         }
+    }
+
+    fun updateList(eventList: List<Event>) {
+        eventListData = eventList
+        notifyDataSetChanged()
     }
 }
 
